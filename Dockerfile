@@ -1,3 +1,3 @@
-FROM camptocamp/docker-postgres:9.6
+FROM camptocamp/postgres:9.6
 
 COPY docker-entrypoint-initdb.d /
